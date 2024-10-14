@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34302.85
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopifySharp", "ShopifySharp\ShopifySharp.csproj", "{833EC12B-956D-427B-A598-2F12B84589EF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C2A84FA5-9EA9-48EB-8A1C-EFDAEEC7D3FD}"
+	ProjectSection(SolutionItems) = preProject
+		docs\contribution-guide.md = docs\contribution-guide.md
+		LICENSE = LICENSE
+		readme.md = readme.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopifySharp.Extensions.DependencyInjection", "ShopifySharp.Extensions.DependencyInjection\ShopifySharp.Extensions.DependencyInjection.csproj", "{76CC06C6-1F1D-4817-8E79-B5BE620777B8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{86BAC93E-824A-4860-ADC1-9A398E1FED12}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{D44F97F5-4C76-405E-8E41-EEBE6C90F414}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\build-and-test.yml = .github\workflows\build-and-test.yml
+		.github\workflows\release.yml = .github\workflows\release.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{1D5FA585-B39C-49E2-A405-935A2EE58222}"
+	ProjectSection(SolutionItems) = preProject
+		.github\scripts\build.fish = .github\scripts\build.fish
+		.github\scripts\bump-version.fish = .github\scripts\bump-version.fish
+		.github\scripts\generate_factories.fish = .github\scripts\generate_factories.fish
+		.github\scripts\test-dnf.ps1 = .github\scripts\test-dnf.ps1
+		.github\scripts\test.fish = .github\scripts\test.fish
+		.github\scripts\utils.fish = .github\scripts\utils.fish
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{833EC12B-956D-427B-A598-2F12B84589EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{833EC12B-956D-427B-A598-2F12B84589EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{833EC12B-956D-427B-A598-2F12B84589EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{833EC12B-956D-427B-A598-2F12B84589EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76CC06C6-1F1D-4817-8E79-B5BE620777B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76CC06C6-1F1D-4817-8E79-B5BE620777B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76CC06C6-1F1D-4817-8E79-B5BE620777B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76CC06C6-1F1D-4817-8E79-B5BE620777B8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D44F97F5-4C76-405E-8E41-EEBE6C90F414} = {86BAC93E-824A-4860-ADC1-9A398E1FED12}
+		{1D5FA585-B39C-49E2-A405-935A2EE58222} = {86BAC93E-824A-4860-ADC1-9A398E1FED12}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {87CAE16B-C3ED-4B77-9124-F442ECE802C4}
+	EndGlobalSection
+EndGlobal
